@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li>
+                    <a href="table.html">table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">table</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Table</h1>
+    <table>
+        <caption>Employee salary</caption>
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill</td>
+                <td>MS</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Stive</td>
+                <td>apple</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mark</td>
+                <td>FB</td>
+                <td>1500$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="34">Total:3</td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+
+</body>
+</html>
